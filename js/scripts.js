@@ -1,9 +1,12 @@
 $(document).ready(function() {
   $('form#q').submit(function(event) {
-    function addTogether('choice1, choice2, choice3, choice4, choice5'){
-      return 'choice1, choice2, choice3, choice4, choice5'
+    const result = $('input:radio[name=choice4]:checked').val();
+    
+    
+    if (result === "html,python,javascript") {
+      $(#outcome).show();
     }
-    $('#results').show()
+    
 
     event.preventDefault();
   });
