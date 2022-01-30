@@ -18,15 +18,15 @@
           <h4>What is your favorite color?</h4>
 
           <label>
-            <input type="radio"> Red
+            <input type="radio" name="choice1" value="Red">Red
           </label>
 
           <label>
-            <input type="radio"> Blue
+            <input type="radio" name="choice1" value="Blue"> Blue
           </label>
 
           <label>
-            <input type="radio"> Orange
+            <input type="radio" name="choice1" value="Orange"> Orange
           </label>
 
         </div>
@@ -36,15 +36,15 @@
           <h4>What do you want to do the most?</h4>
 
           <label>
-            <input type="radio"> Build websites
+            <input type="radio" name="choice2" value="Build Websites"> Build websites
           </label>
 
           <label>
-            <input type="radio"> Make games
+            <input type="radio" name="choice2" value="Make video games"> Make games
           </label>
 
           <label>
-            <input type="radio"> Make websites
+            <input type="radio" name="choice2" value="Make websites"> Make websites
           </label>
 
         </div>
@@ -54,15 +54,15 @@
           <h4>What do you think will be most comfortable?</h4>
 
           <label>
-            <input type="radio"> JavaScript
+            <input type="radio" name="choice3" value="Javascript"> JavaScript
           </label>
 
           <label>
-            <input type="radio"> HTML
+            <input type="radio" name="choice3" value="HTML"> HTML
           </label>
 
           <label>
-            <input type="radio"> Python
+            <input type="radio" name="choice3" value="python"> Python
           </label>
 
         </div>
@@ -72,15 +72,15 @@
           <h4>What experiance do you have already?</h4>
 
           <label>
-            <input type="radio"> Html
+            <input type="radio" name="choice4" value="html"> HTML
           </label>
 
           <label>
-            <input type="radio"> JavaScript
+            <input type="radio" name="choice4" value="javascript"> JavaScript
           </label>
 
           <label>
-            <input type="radio"> C#
+            <input type="radio" name="choice4" value="c#"> C#
           </label>
 
         </div>
@@ -90,19 +90,24 @@
           <h4>what do you like to do on your day off</h4>
 
           <label>
-            <input type="radio"> Play video games
+            <input type="radio" name="choice5" value="play video games"> Play video games
           </label>
           <label>
-            <input type="radio"> Read a book
+            <input type="radio" name="choice5" value="read a book"> Read a book
           </label>
           <label>
-            <input type="radio"> Work on a project
+            <input type="radio" name="choice5" value="work on a project"> Work on a project
           </label>
         </div>
+
+        <button type="submit" class="btn">Submit!</button>
       </form>
+
+      <div id="results">
+        <p>Based on your answers this language is best for you <span class='result'></span></p>
+      </div>
     </div>
 
-    <button type="submit" class="btn">Submit!</button>
 
   </div>
 </body>
