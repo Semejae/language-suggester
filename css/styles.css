@@ -5,7 +5,7 @@ label {
   display: none;
   
 }
-#outcome {
+.outcome {
   display: none;
 }
 .btn {
