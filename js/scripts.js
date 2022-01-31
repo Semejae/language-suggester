@@ -6,23 +6,20 @@ $(document).ready(function() {
     
 // userface logic//
 
-    if (outcome === 'html') { 
-      $('#results').show();
-    } else if (outcome === 'javascript')
+    if (outcome === 'value1') { 
+      $('#Result1').show();
+      $('#Result2').hide();
+      $('#Result3').hide();
+    } else if (outcome === 'value2') {
+      $('#Result2').show();
+      $('#Result3').hide();
+      $('#Result1').hide(); 
+    } else {
+      $('#Result3').show();
+      $('#Result2').hide();
+      $('#Result1').hide();
+    }
       
-
-    // if (result === "html") {
-    //   $(#outcome).show();
-    // } else if (result === "python") {
-    //     $(#outcome).show();
-    // } else (result === "javascrpit")
-    //     $(#outcome).show()
-    //   } 
-
-    
-    
-
-    
 
     event.preventDefault();
   });
