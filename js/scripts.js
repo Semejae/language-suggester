@@ -1,10 +1,14 @@
+// business logic//
 $(document).ready(function() {
   $('form#q').submit(function(event) {
-    let outcome = $('input:radio[value=html]:checked').val();
-    let outcome = $('input')
+    const outcome = $('input:radio[name=choice4]:checked').val();
     
+    
+// userface logic//
 
-    if (outcome) { 
+    if (outcome === 'html') { 
+      $('#results').show();
+    } else if (outcome === 'javascript')
       
 
     // if (result === "html") {
@@ -15,10 +19,10 @@ $(document).ready(function() {
     //     $(#outcome).show()
     //   } 
 
-    $('#outcome').text(results)
-    $('#results').show();
+    
+    
 
-    }
+    
 
     event.preventDefault();
   });
