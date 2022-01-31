@@ -1,21 +1,13 @@
-#q, #q, #q, #q, #q {
-  display: ;
-  
-}
 label {
  
 }
 #results {
   display: none;
   
-  
 }
-#html {
+#outcome {
   display: none;
 }
-#python {
-  display: none;
-}
-#javascript {
-  display: none;
+.btn {
+  display: block;
 }
