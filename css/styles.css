@@ -12,3 +12,9 @@ label {
 .btn {
   display: block;
 }
+body {
+  margin: 50px;
+  padding: 50px;
+  background-color: aqua;
+  border: 100px black dotted;
+}
