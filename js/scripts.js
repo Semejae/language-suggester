@@ -8,23 +8,24 @@ $(document).ready(function() {
     
 // userface logic//
 
-    if(outcome === 'javascript') {
+    if(outcome === 'Red') {
       $('#R1').show();
       $('#R2').hide();
       $('#R3').hide();
-    } else if(outcome === 'html') {
+    } else if(outcome === 'Blue') {
       $('#R2').show();
       $('#R1').hide();
       $('#R3').hide(); 
 
-    } else if(outcome === 'python') {
+    } else if(outcome === 'Orange') {
       $('#R3').show();
       $('#R2').hide();
       $('#R1').hide();
 
-    } else {
-      alert("please click a bubble");
-      
+    } 
+      else {
+      alert('please click bubble!!!')
+
     }
     
     
