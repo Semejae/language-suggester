@@ -23,4 +23,4 @@ known bugs
 License
 refresh page if issues occur or conatact me a.gladden360@outlook.com
 
-Copyright (c) 01/15/2022 Anthony Gladden
+Copyright (c) 01/31/2022 Anthony Gladden
