@@ -1,12 +1,13 @@
 label {
  
 }
-#Result1, #Result2, #Result3 {
+#R1, #R2, #R3 {
   display: none;
   
 }
-.outcome {
-  display: none;
+#outcome {
+  display: ;
+  font-style: italic;
 }
 .btn {
   display: block;

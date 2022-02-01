@@ -1,26 +1,36 @@
 // business logic//
 $(document).ready(function() {
-  $('form#q').submit(function(event) {
-    const answer = $('input:radio[value]:checked').val();
-    let outcome = answer
+  $('form#questions').submit(function(event) {
+    
+    const outcome = $('input:radio[name=choice]:checked').val();
+    
+
     
 // userface logic//
 
-    if (outcome === 'html') {
-      $('#Result1').show();
-      $('#Result2').hide();
-      $('#Result3').hide();
-    } else if (outcome ==='javascript') {
-      $('#Results2').show();
-      $('#Result1').hide();
-      $('#Result3').hide(); 
-    } else if (outcome === 'python') {
-      $('#Result3').show();
-    } 
-    // else {
-    //   alert('please click a bubble!')
-    // }
+    if(outcome === 'javascript') {
+      $('#R1').show();
+      $('#R2').hide();
+      $('#R3').hide();
+    } else if(outcome === 'html') {
+      $('#R2').show();
+      $('#R1').hide();
+      $('#R3').hide(); 
+
+    } else if(outcome === 'python') {
+      $('#R3').show();
+      $('#R2').hide();
+      $('#R1').hide();
+
+    } else {
+      alert("please click a bubble");
       
+    }
+    
+    
+    
+
     event.preventDefault();
-  });
+    
+    });
 });

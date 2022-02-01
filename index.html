@@ -13,7 +13,7 @@
 
     <p>Here we're going to ask a couple questions that'll point you in the right direction</p>
     <div>
-      <form id="q">
+      <form id="questions">
         <div class="radio">
           <h4>What is your favorite color?</h4>
 
@@ -31,52 +31,36 @@
 
         </div>
       </form>
-      <form id="q">
+      
+      <form id="questions">
         <div class="radiio">
           <h4>What do you want to do the most?</h4>
 
           <label>
-            <input type="radio" name="choice" value="Build Websites"> Build websites
+            <input type="radio" name="choice" value="Build websites"> Build websites
           </label>
 
           <label>
-            <input type="radio" name="choice" value="Make video games"> Make games
+            <input type="radio" name="choice" value="Make games"> Make games
           </label>
 
           <label>
-            <input type="radio" name="choice" value="Make websites"> Make websites
+            <input type="radio" name="choice" value="Design Apps"> Design Apps
           </label>
 
         </div>
       </form>
-      <form id="q">
+
+      <form id="questions">
         <div class="radio">
           <h4>What do you think will be most comfortable?</h4>
 
           <label>
-            <input type="radio" name="choice" value="Javascript"> JavaScript
+            <input type="radio" name="choice" value="javascript"> JavaScript
           </label>
-
-          <label>
-            <input type="radio" name="choice" value="HTML"> HTML
-          </label>
-
-          <label>
-            <input type="radio" name="choice" value="Python"> Python
-          </label>
-
-        </div>
-      </form>
-      <form id="q">
-        <div class="radio">
-          <h4>What experiance do you have already?</h4>
 
           <label>
             <input type="radio" name="choice" value="html"> HTML
-          </label>
-
-          <label>
-            <input type="radio" name="choice" value="javascript"> JavaScript
           </label>
 
           <label>
@@ -85,33 +69,54 @@
 
         </div>
       </form>
-      <form id="q">
+
+      <form id="questions">
+        <div class="radio">
+          <h4>What experiance do you have already?</h4>
+
+          <label>
+            <input type="radio" name="choice" value="HTML"> HTML
+          </label>
+
+          <label>
+            <input type="radio" name="choice" value="JavaScript"> JavaScript
+          </label>
+
+          <label>
+            <input type="radio" name="choice" value="Python"> Python
+          </label>
+
+        </div>
+      </form>
+
+      <form id="questions">
         <div class="radio">
           <h4>what do you like to do on your day off</h4>
 
           <label>
-            <input type="radio" name="choice" value="play video games"> Play video games
+            <input type="radio" name="choice" value="Play video games"> Play video games
           </label>
           <label>
-            <input type="radio" name="choice" value="read a book"> Read a book
+            <input type="radio" name="choice" value="Read a book"> Read a book
           </label>
           <label>
-            <input type="radio" name="choice" value="work on a project"> Work on a project
+            <input type="radio" name="choice" value="Work on a project"> Work on a project
           </label>
         </div>
 
         <button type="submit" class="btn">Submit!</button>
       </form>
+
       <!--hidden respone-->
       
-      <div id="Result1">
-        <p>Based on your answers this language is best for you: <span class="answer"></span></p>
+      <div id="R1">
+        <p>Based on your answers this language is best for you: <span id="outcome"> javaScript</span></p>
       </div>
-      <div id="Result2">
-        <p>Based on your answers this language is best for you: <span class="answer"></span></p>
+      <div id="R2">
+        <p>Based on your answers this language is best for you: <span id="outcome"> HTML</span></p>
       </div>
-      <div id="Result3">
-        <p>Based on your answers this language is best for you: <span class="answer"></span></p>
+      <div id="R3">
+        <p>Based on your answers this language is best for you: <span id="outcome"> Python</span></p>
       </div>
 
     </div>
