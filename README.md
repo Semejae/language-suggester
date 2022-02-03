@@ -25,9 +25,13 @@ _this webpage helps you figure out what language is best for you_
 *_Switch to that branch and edit away by using 'git checkout [branch-you'd-like-to-change-to]'_
 *_also you can view the website @ https://github.com/Semejae/language-suggester.git
 
+
 ## known bugs
 
 ## License
 _refresh page if issues occur or conatact me a.gladden360@outlook.com_
 
 _Copyright (c) 01/15/2022 Anthony Gladden_
+=======
+Copyright (c) 01/31/2022 Anthony Gladden
+>>>>>>> 19d3bb347d69b324fde41ecf2c680046d23053cb
