@@ -1,7 +1,7 @@
 #{Anthony-Gladden}
 
-By {Anthony Gladden}
-_{this is a page about me and why i chose coding}
+{Anthony Gladden}
+_{this page is a language suggester}
 technologies used
 *VsCode *gitbash *github *html *css
 

@@ -7,33 +7,20 @@ $(document).ready(function() {
     const myQuestion3 = $('input:radio[name=question3]:checked').val();
     const myQuestion4 = $('input:radio[name=question4]:checked').val();
     const myQuestion5 = $('input:radio[name=question5]:checked').val();
-    
+
 // userface logic//
-    
-    if(array === '') {
+    $('#R1').hide();
+    $('#R2').hide();
+    $('#R3').hide();
+    if(myQuestion1 === 'Red'&& myQuestion2 === 'Build websites' ) {
       $('#R1').show();
-      $('#R2').hide();
-      $('#R3').hide();
-      
-    } else if(array === 'Blue') {
+    } else if(myQuestion1 === 'Blue' ) {
       $('#R2').show();
-      $('#R1').hide();
-      $('#R3').hide();
-      
-    } else if(array === 'Orange') {
-      $('#R3').show();
-      $('#R2').hide();
-      $('#R1').hide();
-      
+    } else if(myQuestion3 === 'Orange') {
+      $('#R3').show(); 
     } else {
       alert('please click bubble!!!')
     }
-    
-    
-    
-    
-
     event.preventDefault();
-    
-    });
+  });
 });
