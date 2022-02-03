@@ -2,7 +2,7 @@
 
 ### by_**{Anthony-Gladden}**_
 
-### _{this page is a language suggester}
+### _{this page is a language suggester}_
 
 ## technologies used
 * _VsCode_
@@ -32,5 +32,5 @@ _this webpage helps you figure out what language is best for you_
 _refresh page if issues occur or conatact me a.gladden360@outlook.com_
 
 
-Copyright (c) 01/31/2022 Anthony Gladden
+_Copyright (c) 02/2/2022 Anthony Gladden_
 
