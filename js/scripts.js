@@ -16,7 +16,7 @@ $(document).ready(function() {
       $('#R1').show();
     } else if(myQuestion1 === 'Blue' ) {
       $('#R2').show();
-    } else if(myQuestion3 === 'Orange') {
+    } else if(myQuestion1 === 'Orange') {
       $('#R3').show(); 
     } else {
       alert('please click bubble!!!')
