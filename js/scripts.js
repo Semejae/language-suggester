@@ -22,5 +22,3 @@ $(document).ready(function() {
       alert('please click bubble!!!')
     }
     event.preventDefault();
-  });
-});
